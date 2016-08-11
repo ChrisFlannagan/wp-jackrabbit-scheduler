@@ -30,7 +30,9 @@ if( isset( $_REQUEST['delIt'] ) && $_REQUEST['delIt'] != '0' ) {
     );
 }
 
-if( isset( $_REQUEST['s_name'] ) && $_REQUEST['delIt'] == '0') {
+echo 'delit:' . $_REQUEST['delIt'];
+
+if( isset( $_REQUEST['s_name'] ) ) {
     $i_id = 0;
 
     if( $_REQUEST['editing'] != '0' ) {
