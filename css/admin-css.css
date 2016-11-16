@@ -1,4 +1,13 @@
-html #cancel_edit {
+#jr-defaults {
+    background: #333;
+    padding: 25px;
+    margin-bottom: 50px;
+    color: #FFF;
+}
+#jr-defaults h3 {
+    color: #FFF;
+}
+#cancel_edit {
     display: none;
     color: Red;
     font-weight: bold;
